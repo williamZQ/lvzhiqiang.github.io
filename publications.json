@@ -1,0 +1,632 @@
+[
+  {
+    "authors": "Zhiqiang Lv; Jianbo Li; Haoran Li; Zhihao Xu; Yue Wang",
+    "title": "Blind travel prediction based on obstacle avoidance in indoor scene",
+    "publication": "Wireless Communications and Mobile Computing",
+    "volume": "2021",
+    "number": "1",
+    "pages": "5536386",
+    "year": "2021",
+    "publisher": "Hindawi"
+  },
+  {
+    "authors": "Zhihao Xu; Jianbo Li; Zhiqiang Lv; Yue Wang; Liping Fu; Xinghao Wang",
+    "title": "A graph spatial-temporal model for predicting population density of key areas",
+    "publication": "Computers & Electrical Engineering",
+    "volume": "93",
+    "number": "",
+    "pages": "107235",
+    "year": "2021",
+    "publisher": "Elsevier"
+  },
+  {
+    "authors": "Xiufang Sun; Jianbo Li; Zhiqiang Lv; Chuanhao Dong",
+    "title": "Traffic Flow Prediction Model Based on Spatio-Temporal Dilated Graph Convolution.",
+    "publication": "KSII Transactions on Internet & Information Systems",
+    "volume": "",
+    "number": "9",
+    "pages": "",
+    "year": "2020",
+    "publisher": ""
+  },
+  {
+    "authors": "Zhiqiang Lv; Jianbo Li; Chuanhao Dong; Wei Zhao",
+    "title": "A deep spatial-temporal network for vehicle trajectory prediction",
+    "publication": "International Conference on Wireless Algorithms, Systems, and Applications",
+    "volume": "",
+    "number": "",
+    "pages": "359-369",
+    "year": "2020",
+    "publisher": "Springer International Publishing Cham"
+  },
+  {
+    "authors": "Liping Fu; Jianbo Li; Zhiqiang Lv; Ying Li; Qing Lin",
+    "title": "Estimation of short-term online taxi travel time based on neural network",
+    "publication": "International Conference on Wireless Algorithms, Systems, and Applications",
+    "volume": "",
+    "number": "",
+    "pages": "20-29",
+    "year": "2020",
+    "publisher": "Springer International Publishing Cham"
+  },
+  {
+    "authors": "Zhiqiang Lv; Jianbo Li; Chuanhao Dong; Yue Wang; Haoran Li; Zhihao Xu",
+    "title": "DeepPTP: A Deep Pedestrian Trajectory Prediction Model for Traffic Intersection.",
+    "publication": "KSII Transactions on Internet & Information Systems",
+    "volume": "15",
+    "number": "7",
+    "pages": "",
+    "year": "2021",
+    "publisher": ""
+  },
+  {
+    "authors": "Zhiqiang Lv; Jianbo Li; Chuanhao Dong; Haoran Li; Zhihao Xu",
+    "title": "Deep learning in the COVID-19 epidemic: A deep model for urban traffic revitalization index",
+    "publication": "Data & Knowledge Engineering",
+    "volume": "135",
+    "number": "",
+    "pages": "101912",
+    "year": "2021",
+    "publisher": "Elsevier"
+  },
+  {
+    "authors": "Chuanhao Dong; Jianbo Li; Zhiqiang Lv; Wei Zhao",
+    "title": "Spatial and Dual-channel Temporal Convolution Networks: A Novel Method for Speed Forecasting",
+    "publication": "Proceedings of the ACM Turing Award Celebration Conference-China",
+    "volume": "",
+    "number": "",
+    "pages": "82-86",
+    "year": "2021",
+    "publisher": ""
+  },
+  {
+    "authors": "Shizhen Fan; Jianbo Li; Zhiqiang Lv; Aite Zhao",
+    "title": "Multimodal traffic travel time prediction",
+    "publication": "2021 International Joint Conference on Neural Networks (IJCNN)",
+    "volume": "",
+    "number": "",
+    "pages": "1-9",
+    "year": "2021",
+    "publisher": "IEEE"
+  },
+  {
+    "authors": "Zhiqiang Lv; Jianbo Li; Zhihao Xu; Yue Wang; Haoran Li",
+    "title": "Parallel computing of spatio-temporal model based on deep reinforcement learning",
+    "publication": "International Conference on Wireless Algorithms, Systems, and Applications",
+    "volume": "",
+    "number": "",
+    "pages": "391-403",
+    "year": "2021",
+    "publisher": "Springer, Cham"
+  },
+  {
+    "authors": "Zhihao Xu; Jianbo Li; Zhiqiang Lv; Chuanhao Dong; Liping Fu",
+    "title": "A classification method for urban functional regions based on the transfer rate of empty cars",
+    "publication": "IET Intelligent Transport Systems",
+    "volume": "16",
+    "number": "2",
+    "pages": "133-147",
+    "year": "2022",
+    "publisher": ""
+  },
+  {
+    "authors": "Genji Yuan; Jianbo Li; Zhiqiang Lv; Yinong Li; Zhihao Xu",
+    "title": "DDCAttNet: road segmentation network for remote sensing images",
+    "publication": "International Conference on Wireless Algorithms, Systems, and Applications",
+    "volume": "",
+    "number": "",
+    "pages": "457-468",
+    "year": "2021",
+    "publisher": "Springer International Publishing Cham"
+  },
+  {
+    "authors": "Haoran Li; Jianbo Li; Zhiqiang Lv; Zhihao Xu",
+    "title": "MFAGCN: multi-feature based attention graph convolutional network for traffic prediction",
+    "publication": "International conference on wireless algorithms, systems, and applications",
+    "volume": "",
+    "number": "",
+    "pages": "227-239",
+    "year": "2021",
+    "publisher": "Springer International Publishing Cham"
+  },
+  {
+    "authors": "Yue Wang; Jianbo Li; Aite Zhao; Zhiqiang Lv; Guangquan Lu",
+    "title": "Temporal attention-based graph convolution network for taxi demand prediction in functional areas",
+    "publication": "International conference on wireless algorithms, systems, and applications",
+    "volume": "",
+    "number": "",
+    "pages": "203-214",
+    "year": "2021",
+    "publisher": "Springer International Publishing Cham"
+  },
+  {
+    "authors": "Zhiqiang Lv; Jianbo Li; Chuanhao Dong; Zhihao Xu",
+    "title": "DeepSTF: A deep spatial–temporal forecast model of taxi flow",
+    "publication": "The Computer Journal",
+    "volume": "66",
+    "number": "3",
+    "pages": "565-580",
+    "year": "2023",
+    "publisher": "Oxford University Press"
+  },
+  {
+    "authors": "Zhihao Xu; Jianbo Li; Zhiqiang Lv; Yue Wang; Haoran Li",
+    "title": "A prediction method for population density in key areas",
+    "publication": "International Symposium on Artificial Intelligence and Robotics 2021",
+    "volume": "11884",
+    "number": "",
+    "pages": "13-28",
+    "year": "2021",
+    "publisher": "SPIE"
+  },
+  {
+    "authors": "Zhihao Xu; Zhiqiang Lv; Jianbo Li; Haokai Sun; Zhaoyu Sheng",
+    "title": "A novel perspective on travel demand prediction considering natural environmental and socioeconomic factors",
+    "publication": "IEEE Intelligent Transportation Systems Magazine",
+    "volume": "15",
+    "number": "1",
+    "pages": "136-159",
+    "year": "2022",
+    "publisher": "IEEE"
+  },
+  {
+    "authors": "赵薇; 李建波; 吕志强; 董传浩",
+    "title": "融合时间和地理信息的兴趣点推荐研究",
+    "publication": "复杂系统与复杂性科学",
+    "volume": "19",
+    "number": "4",
+    "pages": "25-31",
+    "year": "2023",
+    "publisher": ""
+  },
+  {
+    "authors": "Chuanhao Dong; Zhiqiang Lv; Jianbo Li",
+    "title": "A Forecasting Method of Dual Traffic Condition Indicators Based on Ensemble Learning",
+    "publication": "2021 IEEE 27th International Conference on Parallel and Distributed Systems (ICPADS)",
+    "volume": "",
+    "number": "",
+    "pages": "332-339",
+    "year": "2021",
+    "publisher": "IEEE"
+  },
+  {
+    "authors": "Yue Wang; Zhiqiang Lv; Zhaoyu Sheng; Haokai Sun; Aite Zhao",
+    "title": "A deep spatio-temporal meta-learning model for urban traffic revitalization index prediction in the COVID-19 pandemic",
+    "publication": "Advanced Engineering Informatics",
+    "volume": "53",
+    "number": "",
+    "pages": "101678",
+    "year": "2022",
+    "publisher": "Elsevier"
+  },
+  {
+    "authors": "Zhihao Xu; Zhiqiang Lv; Jianbo Li; Anshuo Shi",
+    "title": "A novel approach for predicting water demand with complex patterns based on ensemble learning",
+    "publication": "Water Resources Management",
+    "volume": "36",
+    "number": "11",
+    "pages": "4293-4312",
+    "year": "2022",
+    "publisher": "Springer Netherlands"
+  },
+  {
+    "authors": "Haoran Li; Zhiqiang Lv; Jianbo Li; Zhihao Xu; Yue Wang; Haokai Sun; Zhaoyu Sheng",
+    "title": "Traffic flow forecasting in the covid-19: A deep spatial-temporal model based on discrete wavelet transformation",
+    "publication": "ACM Transactions on Knowledge Discovery from Data",
+    "volume": "17",
+    "number": "5",
+    "pages": "1-28",
+    "year": "2023",
+    "publisher": "ACM New York, NY"
+  },
+  {
+    "authors": "Yue Wang; Aite Zhao; Jianbo Li; Zhiqiang Lv; Chuanhao Dong; Haoran Li",
+    "title": "Multi-attribute graph convolution network for regional traffic flow prediction",
+    "publication": "Neural Processing Letters",
+    "volume": "55",
+    "number": "4",
+    "pages": "4183-4209",
+    "year": "2023",
+    "publisher": "Springer US New York"
+  },
+  {
+    "authors": "Haokai Sun; Zhiqiang Lv; Jianbo Li; Zhihao Xu; Zhaoyu Sheng; Zhaobin Ma",
+    "title": "Prediction of cancellation probability of online car-hailing orders based on multi-source heterogeneous data fusion",
+    "publication": "International Conference on Wireless Algorithms, Systems, and Applications",
+    "volume": "",
+    "number": "",
+    "pages": "168-180",
+    "year": "2022",
+    "publisher": "Springer Nature Switzerland Cham"
+  },
+  {
+    "authors": "Rongkun Ye; Zhiqiang Lv; Aite Zhao; Jianbo Li",
+    "title": "Socially Acceptable Trajectory Prediction for Scene Pedestrian Gathering Area",
+    "publication": "International Conference on Wireless Algorithms, Systems, and Applications",
+    "volume": "",
+    "number": "",
+    "pages": "206-215",
+    "year": "2022",
+    "publisher": "Springer Nature Switzerland Cham"
+  },
+  {
+    "authors": "Yang Lv; Zesheng Cheng; Zhiqiang Lv; Jianbo Li",
+    "title": "A spatial-temporal convolutional model with improved graph representation",
+    "publication": "International Conference on Wireless Algorithms, Systems, and Applications",
+    "volume": "",
+    "number": "",
+    "pages": "101-112",
+    "year": "2022",
+    "publisher": "Springer Nature Switzerland Cham"
+  },
+  {
+    "authors": "Zhaoyu Sheng; Zhiqiang Lv; Jianbo Li; Zhihao Xu; Haokai Sun; Xue Liu; Rongkun Ye",
+    "title": "Taxi travel time prediction based on fusion of traffic condition features",
+    "publication": "Computers and Electrical Engineering",
+    "volume": "105",
+    "number": "",
+    "pages": "108530",
+    "year": "2023",
+    "publisher": "Elsevier"
+  },
+  {
+    "authors": "Zhiqiang Lv; Xiaotong Wang; Zesheng Cheng; Jianbo Li; Haoran Li; Zhihao Xu",
+    "title": "A new approach to COVID-19 data mining: A deep spatial–temporal prediction model based on tree structure for traffic revitalization index",
+    "publication": "Data & Knowledge Engineering",
+    "volume": "146",
+    "number": "",
+    "pages": "102193",
+    "year": "2023",
+    "publisher": "North-Holland"
+  },
+  {
+    "authors": "Yinong Li; Jianbo Li; Zhiqiang Lv; Haoran Li; Yue Wang; Zhihao Xu",
+    "title": "GASTO: A fast adaptive graph learning framework for edge computing empowered task offloading",
+    "publication": "IEEE Transactions on Network and Service Management",
+    "volume": "20",
+    "number": "2",
+    "pages": "932-944",
+    "year": "2023",
+    "publisher": "IEEE"
+  },
+  {
+    "authors": "Haokai Sun; Zhiqiang Lv; Jianbo Li; Zhihao Xu; Zhaoyu Sheng",
+    "title": "Will the order be canceled? order cancellation probability prediction based on deep residual model",
+    "publication": "Transportation Research Record",
+    "volume": "2677",
+    "number": "6",
+    "pages": "142-160",
+    "year": "2023",
+    "publisher": "SAGE Publications Sage CA: Los Angeles, CA"
+  },
+  {
+    "authors": "Zhaoyu Sheng; Zhiqiang Lv; Jianbo Li; Zhihao Xu",
+    "title": "Deep spatial-temporal travel time prediction model based on trajectory feature",
+    "publication": "Computers and Electrical Engineering",
+    "volume": "110",
+    "number": "",
+    "pages": "108868",
+    "year": "2023",
+    "publisher": "Elsevier"
+  },
+  {
+    "authors": "Yang Lv; Zhiqiang Lv; Zesheng Cheng; Zhanqi Zhu; Rashidi, Taha Hossein",
+    "title": "TS-STNN: Spatial-temporal neural network based on tree structure for traffic flow prediction",
+    "publication": "Transportation research part E: logistics and transportation review",
+    "volume": "177",
+    "number": "",
+    "pages": "103251",
+    "year": "2023",
+    "publisher": "Pergamon"
+  },
+  {
+    "authors": "Songyu Han; Liping Fu",
+    "title": "A Deep Spatiotemporal Model for Travel Time Prediction",
+    "publication": "Annals of Applied Sciences",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "year": "2024",
+    "publisher": ""
+  },
+  {
+    "authors": "Zhihao Xu; Zhiqiang Lv; Benjia Chu; Jianbo Li",
+    "title": "Fast autoregressive tensor decomposition for online real-time traffic flow prediction",
+    "publication": "Knowledge-Based Systems",
+    "volume": "282",
+    "number": "",
+    "pages": "111125",
+    "year": "2023",
+    "publisher": "Elsevier"
+  },
+  {
+    "authors": "Zhiqiang Lv; Zesheng Cheng; Jianbo Li; Zhihao Xu; Zheng Yang",
+    "title": "TreeCN: time series prediction with the tree convolutional network for traffic prediction",
+    "publication": "IEEE Transactions on Intelligent Transportation Systems",
+    "volume": "25",
+    "number": "5",
+    "pages": "3751-3766",
+    "year": "2023",
+    "publisher": "IEEE"
+  },
+  {
+    "authors": "Xue Liu; Zhiqiang Lv; Jianbo Li; Zhaobin Ma; Benjia Chu; Fengqian Xia; Yang Liu",
+    "title": "Traffic Flow Prediction: A Spatiotemporal Convolution Model Considering Traffic Accident Influence Coefficient Matrix",
+    "publication": "Annals of Applied Sciences",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "year": "2024",
+    "publisher": ""
+  },
+  {
+    "authors": "Jianbo Li; Zhiqiang Lv; Zhaobin Ma; Xiaotong Wang; Zhihao Xu",
+    "title": "Optimization of spatial-temporal graph: A taxi demand forecasting model based on spatial-temporal tree",
+    "publication": "Information Fusion",
+    "volume": "104",
+    "number": "",
+    "pages": "102178",
+    "year": "2024",
+    "publisher": "Elsevier"
+  },
+  {
+    "authors": "Songyu Han; Zhaobin Ma; Wei Zhao; Zhiqiang Lv",
+    "title": "Neighbor-Discovery Recurrent Model for Point-of-Interest Recommendation",
+    "publication": "Proceedings of the 2023 6th International Conference on Big Data Technologies",
+    "volume": "",
+    "number": "",
+    "pages": "52-59",
+    "year": "2023",
+    "publisher": ""
+  },
+  {
+    "authors": "Zhihao Xu; Zhiqiang Lv; Benjia Chu; Zhaoyu Sheng; Jianbo Li",
+    "title": "Progress and prospects of future urban health status prediction",
+    "publication": "Engineering Applications of Artificial Intelligence",
+    "volume": "129",
+    "number": "",
+    "pages": "107573",
+    "year": "2024",
+    "publisher": "Elsevier"
+  },
+  {
+    "authors": "Zhaobin Ma; Zhiqiang Lv; Xiaoyang Xin; Zesheng Cheng; Fengqian Xia; Jianbo Li",
+    "title": "Spatio-temporal heterogeneous graph-based convolutional networks for traffic flow forecasting",
+    "publication": "Transportation Research Record",
+    "volume": "2678",
+    "number": "8",
+    "pages": "120-133",
+    "year": "2024",
+    "publisher": "SAGE Publications Sage CA: Los Angeles, CA"
+  },
+  {
+    "authors": "Hongyu Yan; Zhiqiang Lv",
+    "title": "A survey of sustainable development of intelligent transportation system based on urban travel demand",
+    "publication": "Development",
+    "volume": "2",
+    "number": "1",
+    "pages": "2399",
+    "year": "2024",
+    "publisher": ""
+  },
+  {
+    "authors": "曲浩; 吴楠; 吕志强",
+    "title": "基于离散小波变换的深度树时空模型",
+    "publication": "Computer Science and Application",
+    "volume": "13",
+    "number": "",
+    "pages": "2417",
+    "year": "2023",
+    "publisher": "中文学术期刊, 汉斯出版社, Hans Publishers"
+  },
+  {
+    "authors": "Zhiqiang Lv; Zhaobin Ma; Fengqian Xia; Jianbo Li",
+    "title": "A transportation Revitalization index prediction model based on Spatial-Temporal attention mechanism",
+    "publication": "Advanced Engineering Informatics",
+    "volume": "61",
+    "number": "",
+    "pages": "102519",
+    "year": "2024",
+    "publisher": "Elsevier"
+  },
+  {
+    "authors": "Zhihao Xu; Zhiqiang Lv; Benjia Chu; Jianbo Li",
+    "title": "A fast spatial-temporal information compression algorithm for online real-time forecasting of traffic flow with complex nonlinear patterns",
+    "publication": "Chaos, Solitons & Fractals",
+    "volume": "182",
+    "number": "",
+    "pages": "114852",
+    "year": "2024",
+    "publisher": "Pergamon"
+  },
+  {
+    "authors": "Nan Wu; Xue Liu",
+    "title": "A Novel Hybrid Model Based on Rule Learning and Dilated Convolution for Vehicle Collision Prediction",
+    "publication": "Annals of Applied Sciences",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "year": "2024",
+    "publisher": ""
+  },
+  {
+    "authors": "Zhiqiang Lv; Xiaotong Wang; Zesheng Cheng; Sisi Jian; Jianbo Li",
+    "title": "ST-TDCN: A two-channel tree-structure spatial–temporal convolutional network model for traffic velocity prediction",
+    "publication": "Expert Systems with Applications",
+    "volume": "257",
+    "number": "",
+    "pages": "125053",
+    "year": "2024",
+    "publisher": "Pergamon"
+  },
+  {
+    "authors": "Zhaobin Ma; Zhiqiang Lv; Jianbo Li; Fengqian Xia",
+    "title": "A spatio-temporal tree and gauss convolutional network for traffic flow forecasting",
+    "publication": "2023 19th International Conference on Mobility, Sensing and Networking (MSN)",
+    "volume": "",
+    "number": "",
+    "pages": "722-729",
+    "year": "2023",
+    "publisher": "IEEE Computer Society"
+  },
+  {
+    "authors": "Zhiqiang Lv; Jianbo Li; Zhihao Xu; Rongkun Ye",
+    "title": "A Spatio-Temporal Hypergraph Forecasting Model for Transportation Revitalization Index Following the COVID-19 Pandemic",
+    "publication": "Available at SSRN 4891848",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "year": "",
+    "publisher": ""
+  },
+  {
+    "authors": "Rongkun Ye; Zhiqiang Lv; Zhihao Xu; Jianbo Li",
+    "title": "Mt-cnn: A lightweight spatial-temporal convolutional neural network for deep learning of complex trajectory distributions based on area partitioning",
+    "publication": "2024 International Joint Conference on Neural Networks (IJCNN)",
+    "volume": "",
+    "number": "",
+    "pages": "1-8",
+    "year": "2024",
+    "publisher": "IEEE"
+  },
+  {
+    "authors": "Zhihao Xu; Zhiqiang Lv; Benjia Chu; Jianbo Li",
+    "title": "A fast matrix autoregression algorithm based on Tucker decomposition for online prediction of nonlinear real-time taxi-hailing demand without pre-training",
+    "publication": "Chaos, Solitons & Fractals",
+    "volume": "189",
+    "number": "",
+    "pages": "115660",
+    "year": "2024",
+    "publisher": "Elsevier"
+  },
+  {
+    "authors": "Zhaobin Ma; Zhiqiang Lv; Zhihao Xu; Rongkun Ye; Jianbo Li",
+    "title": "Spatio-temporal traffic flow forecasting based on second-order continuous graph neural network",
+    "publication": "The Computer Journal",
+    "volume": "68",
+    "number": "9",
+    "pages": "1300-1314",
+    "year": "2025",
+    "publisher": "Oxford University Press"
+  },
+  {
+    "authors": "Fengqian Xia; Zhiqiang Lv; Zhaobin Ma; Jianbo Li",
+    "title": "Spatio-Temporal Heterogeneous Tree Convolutional Networks for Traffic Flow Prediction",
+    "publication": "2024 20th International Conference on Mobility, Sensing and Networking (MSN)",
+    "volume": "",
+    "number": "",
+    "pages": "802-809",
+    "year": "2024",
+    "publisher": "IEEE Computer Society"
+  },
+  {
+    "authors": "Hongyu Yan; Zhiqiang Lv; Jianbo Li; Benjia Chu; Zhihao Xu",
+    "title": "Shared mobility demand prediction via A fast spatiotemporal tensor autoregression",
+    "publication": "Engineering Applications of Artificial Intelligence",
+    "volume": "158",
+    "number": "",
+    "pages": "111467",
+    "year": "2025",
+    "publisher": "Elsevier"
+  },
+  {
+    "authors": "Enwei Zhang; Zhiqiang Lv; Zesheng Cheng; Jintao Ke",
+    "title": "CL-DGCN: contrastive learning based deeper graph convolutional network for traffic flow data prediction",
+    "publication": "Transportation Research Part E: Logistics and Transportation Review",
+    "volume": "203",
+    "number": "",
+    "pages": "104345",
+    "year": "2025",
+    "publisher": "Elsevier"
+  },
+  {
+    "authors": "Yingjie Song; Zhiqiang Lv; Haoran Li; Jianbo Li",
+    "title": "DeepTTF: A Deep Tree Traffic Forecast Model Based on Tree Structure",
+    "publication": "International Conference on Wireless Artificial Intelligent Computing Systems and Applications",
+    "volume": "",
+    "number": "",
+    "pages": "287-296",
+    "year": "2025",
+    "publisher": "Springer"
+  },
+  {
+    "authors": "Shulan Guo; Haoran Li; Jianbo Li; Zhiqiang Lv",
+    "title": "A Model of Multi-order Sampling Neighbor Aggregation for Traffic Flow Prediction",
+    "publication": "International Conference on Wireless Artificial Intelligent Computing Systems and Applications",
+    "volume": "",
+    "number": "",
+    "pages": "343-355",
+    "year": "2025",
+    "publisher": "Springer"
+  },
+  {
+    "authors": "Hongyu Yan; Jianbo Li; Zhihao Xu; Zhiqiang Lv",
+    "title": "Meta analysis of traffic safety prediction",
+    "publication": "2024 Twelfth International Conference on Advanced Cloud and Big Data (CBD)",
+    "volume": "",
+    "number": "",
+    "pages": "216-221",
+    "year": "2024",
+    "publisher": "IEEE"
+  },
+  {
+    "authors": "Hao Qu; Zhiqiang Lv; Jianbo Li",
+    "title": "A Deep Spatial-Temporal Model Based on Discrete Wavelet Transform for Traffic Flow Forecasting",
+    "publication": "2024 Twelfth International Conference on Advanced Cloud and Big Data (CBD)",
+    "volume": "",
+    "number": "",
+    "pages": "228-233",
+    "year": "2024",
+    "publisher": "IEEE"
+  },
+  {
+    "authors": "Hao Qu; Zhiqiang Lv; Jianbo Li",
+    "title": "STDFN: A Taxi Flow Prediction Model Based on Spatial-Temporal Data Fusion",
+    "publication": "2024 Twelfth International Conference on Advanced Cloud and Big Data (CBD)",
+    "volume": "",
+    "number": "",
+    "pages": "240-245",
+    "year": "2024",
+    "publisher": "IEEE"
+  },
+  {
+    "authors": "Hongyu Yan; Jianbo Li; Benjia Chu; Zhihao Xu",
+    "title": "HT-STNet: a hierarchical Tucker decomposition and spatio-temporal LSTM network for accurate and efficient shared mobility demand forecasting on sparse data: Yan et al.",
+    "publication": "Applied Intelligence",
+    "volume": "55",
+    "number": "7",
+    "pages": "631",
+    "year": "2025",
+    "publisher": "Springer US New York"
+  },
+  {
+    "authors": "Zhihao Xu; Zhiqiang Lv; Jianbo Li",
+    "title": "Fast-TrafficNet: A hybrid model for efficient prediction of nonlinear traffic flow with sparse data",
+    "publication": "Chaos, Solitons & Fractals",
+    "volume": "201",
+    "number": "",
+    "pages": "117230",
+    "year": "2025",
+    "publisher": "Elsevier"
+  },
+  {
+    "authors": "Zhiqiang Lv; Qu Hao; Jianbo Li; Lei You",
+    "title": "PSTGCN: A Taxi Flow Prediction Model Period-Based Spatial-Temporal Graph Convolution Network",
+    "publication": "Tsinghua Science and Technology",
+    "volume": "31",
+    "number": "3",
+    "pages": "1706-1721",
+    "year": "2026",
+    "publisher": "清华大学出版社"
+  },
+  {
+    "authors": "Haoran Li; Zhiqiang Lv; Zhaobin Ma; Jianbo Li; Xiaolong Ma; Dongxin Sun; Kangxin Guo; Jun Liu",
+    "title": "Spatio-temporal tree attention network for forecasting traffic flow",
+    "publication": "Neurocomputing",
+    "volume": "",
+    "number": "",
+    "pages": "133032",
+    "year": "2026",
+    "publisher": "Elsevier"
+  }
+]

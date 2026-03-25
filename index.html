@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zhiqiang Lv - PhD candidate specializing in traffic prediction, deep learning, and spatio-temporal data mining. Published research in transportation, mobile computing, and intelligent systems.">
+    <meta name="keywords" content="Zhiqiang Lv, Zhiqiang Lv, traffic prediction, deep learning, spatio-temporal, machine learning, computer science, researcher">
+    <meta name="author" content="Zhiqiang Lv">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://lvzhiqiang.github.io">
+
+    <meta property="og:title" content="Zhiqiang Lv - Academic Homepage">
+    <meta property="og:description" content="PhD candidate specializing in traffic prediction, deep learning, and spatio-temporal data mining.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+
+    <title>Zhiqiang Lv | PhD Candidate in Traffic Prediction & Deep Learning</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Zhiqiang Lv",
+        "alternateName": "Zhiqiang Lv",
+        "description": "PhD candidate specializing in traffic prediction, deep learning, and spatio-temporal data mining",
+        "url": "https://lvzhiqiang.github.io",
+        "sameAs": [],
+        "knowsAbout": ["Deep Learning", "Traffic Prediction", "Spatio-temporal Data Mining", "Graph Neural Networks", "Transportation Systems"],
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "PhD Candidate",
+            "description": "Research in traffic prediction models and deep learning applications"
+        }
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary-color: #1a365d;
+            --secondary-color: #2c5282;
+            --accent-color: #ed8936;
+            --accent-hover: #dd6b20;
+            --bg-light: #f7fafc;
+            --bg-card: #ffffff;
+            --text-dark: #1a202c;
+            --text-secondary: #4a5568;
+            --text-light: #718096;
+            --border-color: #e2e8f0;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.1);
+            --shadow-lg: 0 10px 40px rgba(0,0,0,0.12);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.7;
+            font-size: 16px;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 600;
+            line-height: 1.3;
+        }
+
+        .navbar {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            padding: 1rem 0;
+            box-shadow: var(--shadow-md);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: #fff !important;
+            letter-spacing: -0.5px;
+        }
+
+        .navbar-nav .nav-link {
+            color: rgba(255,255,255,0.9) !important;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+
+        .navbar-nav .nav-link:hover {
+            background: rgba(255,255,255,0.15);
+            color: #fff !important;
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, var(--primary-color) 0%, #234876 50%, var(--secondary-color) 100%);
+            color: #fff;
+            padding: 5rem 0 4rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            opacity: 0.5;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .profile-photo {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--accent-color), #f6ad55);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            font-weight: 700;
+            color: #fff;
+            box-shadow: var(--shadow-lg);
+            border: 4px solid rgba(255,255,255,0.3);
+            margin: 0 auto 1.5rem;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            letter-spacing: -1px;
+        }
+
+        .hero-title {
+            font-size: 1.25rem;
+            opacity: 0.95;
+            font-weight: 400;
+            margin-bottom: 1rem;
+        }
+
+        .hero-affiliation {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            margin-bottom: 1.5rem;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .social-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.15);
+            color: #fff;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-size: 1.2rem;
+        }
+
+        .social-link:hover {
+            background: var(--accent-color);
+            color: #fff;
+            transform: translateY(-3px);
+        }
+
+        .main-content {
+            padding: 3rem 0 4rem;
+        }
+
+        .section-card {
+            background: var(--bg-card);
+            border-radius: 16px;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border-color);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .section-card:hover {
+            box-shadow: var(--shadow-md);
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 3px solid var(--accent-color);
+        }
+
+        .section-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 1.4rem;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin: 0;
+        }
+
+        .bio-text {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .info-item:last-child {
+            border-bottom: none;
+        }
+
+        .info-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            background: var(--bg-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent-color);
+            font-size: 1.1rem;
+            flex-shrink: 0;
+        }
+
+        .info-content h5 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 0.25rem;
+        }
+
+        .info-content p {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            margin: 0;
+        }
+
+        .education-item, .experience-item {
+            padding: 1.5rem;
+            border-radius: 12px;
+            background: var(--bg-light);
+            margin-bottom: 1rem;
+            border-left: 4px solid var(--accent-color);
+            transition: transform 0.2s ease;
+        }
+
+        .education-item:hover, .experience-item:hover {
+            transform: translateX(5px);
+        }
+
+        .education-item h5, .experience-item h5 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .education-item p, .experience-item p {
+            color: var(--text-secondary);
+            margin: 0;
+            font-size: 0.95rem;
+        }
+
+        .year-badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background: var(--primary-color);
+            color: #fff;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .honor-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            padding: 1rem;
+            border-radius: 10px;
+            background: linear-gradient(135deg, rgba(237,137,54,0.08), rgba(246,173,85,0.05));
+            margin-bottom: 0.75rem;
+            border: 1px solid rgba(237,137,54,0.15);
+        }
+
+        .honor-icon {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: var(--accent-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 1rem;
+            flex-shrink: 0;
+        }
+
+        .honor-content h5 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 0.25rem;
+        }
+
+        .honor-content p {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin: 0;
+        }
+
+        .service-subtitle {
+            color: var(--primary-color);
+            font-size: 1rem;
+            font-weight: 600;
+            margin: 1.5rem 0 0.75rem 0;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .service-item {
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            background: var(--bg-light);
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .service-item:hover {
+            background: linear-gradient(135deg, rgba(26,54,93,0.08), rgba(44,82,130,0.05));
+            transform: translateX(5px);
+        }
+
+        .service-item i {
+            color: var(--accent-color);
+            font-size: 1.2rem;
+        }
+
+        .service-item span {
+            color: var(--text-dark);
+            font-size: 0.95rem;
+        }
+
+        .publications-container {
+            margin-top: 1rem;
+        }
+
+        .pub-item {
+            padding: 1.25rem;
+            border-radius: 12px;
+            background: var(--bg-light);
+            margin-bottom: 1rem;
+            border-left: 4px solid var(--secondary-color);
+            transition: all 0.3s ease;
+        }
+
+        .pub-item:hover {
+            background: linear-gradient(135deg, rgba(26,54,93,0.05), rgba(44,82,130,0.03));
+            transform: translateX(5px);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .pub-authors {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+
+        .pub-title {
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+            line-height: 1.4;
+        }
+
+        .pub-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            align-items: center;
+            font-size: 0.85rem;
+            color: var(--text-light);
+        }
+
+        .pub-meta .badge {
+            background: var(--secondary-color);
+            color: #fff;
+            padding: 0.25rem 0.6rem;
+            border-radius: 6px;
+            font-weight: 500;
+        }
+
+        .pub-venue {
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+
+        footer {
+            background: var(--primary-color);
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+            opacity: 0.9;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero-title {
+                font-size: 1.1rem;
+            }
+
+            .section-card {
+                padding: 1.5rem;
+                border-radius: 12px;
+            }
+
+            .section-title {
+                font-size: 1.3rem;
+            }
+
+            .profile-photo {
+                width: 130px;
+                height: 130px;
+                font-size: 3rem;
+            }
+
+            .navbar-brand {
+                font-size: 1.2rem;
+            }
+        }
+
+        .loading-spinner {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-light);
+        }
+
+        .error-message {
+            background: #fed7d7;
+            color: #c53030;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .filter-section {
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            background: var(--bg-light);
+            border-radius: 10px;
+        }
+
+        .filter-section input {
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            padding: 0.6rem 1rem;
+            width: 100%;
+            font-size: 0.95rem;
+            transition: border-color 0.3s ease;
+        }
+
+        .filter-section input:focus {
+            outline: none;
+            border-color: var(--accent-color);
+        }
+
+        .results-count {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin-bottom: 1rem;
+        }
+
+        .kg-container {
+            width: 100%;
+            border-radius: 12px;
+            background: linear-gradient(135deg, var(--bg-light) 0%, #edf2f7 100%);
+            overflow: hidden;
+            position: relative;
+            border: 1px solid var(--border-color);
+        }
+
+        #knowledgeGraph {
+            width: 100%;
+            height: auto;
+            max-height: 600px;
+        }
+
+        .kg-node {
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .kg-node:hover {
+            filter: brightness(1.1);
+        }
+
+        .kg-subject circle {
+            fill: var(--primary-color);
+            stroke: #fff;
+            stroke-width: 3px;
+        }
+
+        .kg-subject-text {
+            font-family: 'Inter', sans-serif;
+            font-size: 12px;
+            fill: #fff;
+            font-weight: 600;
+        }
+
+        .kg-subject .kg-count {
+            font-family: 'Inter', sans-serif;
+            font-size: 10px;
+            fill: rgba(255,255,255,0.8);
+        }
+
+        .kg-topic circle {
+            fill: var(--accent-color);
+            stroke: #fff;
+            stroke-width: 2px;
+        }
+
+        .kg-topic-text {
+            font-family: 'Inter', sans-serif;
+            font-size: 10px;
+            fill: #fff;
+            font-weight: 500;
+        }
+
+        .kg-link {
+            stroke: #cbd5e0;
+            stroke-opacity: 0.6;
+            stroke-width: 1.5px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Zhiqiang Lv</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#biography">Biography</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#honors">Honors</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="container">
+            <div class="hero-content text-center">
+                <div class="profile-photo"><img src="photo.jpg" alt="Zhiqiang Lv" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"></div>
+                <h1>Zhiqiang Lv</h1>
+                <p class="hero-title">Email: lvzhiqiang@ubinet.cn</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <section id="biography" class="section-card">
+                <div class="section-header">
+                    <div class="section-icon"><i class="bi bi-person"></i></div>
+                    <h2 class="section-title">Biography</h2>
+                </div>
+                <p class="bio-text">
+Zhiqiang Lv is currently a Young Talent at the School of Artificial Intelligence, Qingdao University of Technology, and concurrently serves as a Senior AI Consultant at the R&D Center of PerfXLab. His research focuses on Intelligent Transportation Systems, Spatio-temporal Artificial Intelligence, Spatio-temporal Large Language Models, and High-Performance Computing. He is also the proposer and theoretical founder of the Spatio-temporal Tree Neural Network. Proficient in AI, big data, deep learning, and computer vision technologies, he has published over 60 academic papers in journals such as IEEE Transactions.
+                </p>
+                <div class="row mt-4">
+                    <div class="col-md-12">
+                        <div class="info-item">
+                            <div class="info-icon"><i class="bi bi-buildings"></i></div>
+                            <div class="info-content">
+                                <h5>Research Focus</h5>
+                                <p>Traffic Prediction, Deep Learning, Spatio-Temporal AI, Spatio-temporal Model, Data Mining, Tree Neural Networks, Graph Neural Networks, Large Language Model(LLM), Agent Scheduling, High Performance Computing(HPC)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="experience" class="section-card">
+                <div class="section-header">
+                    <div class="section-icon"><i class="bi bi-buildings"></i></div>
+                    <h2 class="section-title">Experience</h2>
+                </div>
+                <div class="education-item">
+                    <div class="d-flex justify-content-between align-items-start flex-wrap gap-2">
+                        <div>
+                            <h5>Young Talent, Lecturer</h5>
+                            <p>School of Artificial Intelligence, Qingdao University of Technology, Qingdao, China</p>
+                        </div>
+                        <span class="year-badge">2026 - Present</span>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="d-flex justify-content-between align-items-start flex-wrap gap-2">
+                        <div>
+                            <h5>Senior AI Consultant</h5>
+                            <p>R&D Center of PerfXLab, Qingdao, China</p>
+                        </div>
+                        <span class="year-badge">2022 - Present</span>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="d-flex justify-content-between align-items-start flex-wrap gap-2">
+                        <div>
+                            <h5>Joint Ph.D.</h5>
+                            <p>Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China</p>
+                        </div>
+                        <span class="year-badge">2022 - 2026</span>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="d-flex justify-content-between align-items-start flex-wrap gap-2">
+                        <div>
+                            <h5>Ph.D.</h5>
+                            <p>College of Computer Science & Technology, Qingdao University, Qingdao, China</p>
+                        </div>
+                        <span class="year-badge">2022 - 2026</span>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="d-flex justify-content-between align-items-start flex-wrap gap-2">
+                        <div>
+                            <h5>M.S.</h5>
+                            <p>College of Computer Science & Technology, Qingdao University, Qingdao, China</p>
+                        </div>
+                        <span class="year-badge">2019 - 2022</span>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="d-flex justify-content-between align-items-start flex-wrap gap-2">
+                        <div>
+                            <h5>B.S.</h5>
+                            <p>School of Information and Electrical Engineering, Ludong University, Yantai, China</p>
+                        </div>
+                        <span class="year-badge">2015 - 2019</span>
+                    </div>
+                </div>
+            </section>
+            <section id="honors" class="section-card">
+                <div class="section-header">
+                    <div class="section-icon"><i class="bi bi-trophy"></i></div>
+                    <h2 class="section-title">Honors and Awards</h2>
+                </div>
+
+                <div class="honor-item">
+                    <div class="honor-icon"><i class="bi bi-star"></i></div>
+                    <div class="honor-content">
+                        <h5>National Bronze Award</h5>
+                        <p>China College Students' "Internet+" Innovation and Entrepreneurship Competition, 2025</p>
+                    </div>
+                </div>
+                <div class="honor-item">
+                    <div class="honor-icon"><i class="bi bi-star"></i></div>
+                    <div class="honor-content">
+                        <h5>Second Prize for Science and Technology Progress</h5>
+                        <p>Shandong Computer Society (China), 2024</p>
+                    </div>
+                </div>
+                <div class="honor-item">
+                    <div class="honor-icon"><i class="bi bi-star"></i></div>
+                    <div class="honor-content">
+                        <h5>Outstanding Postgraduate Thesis</h5>
+                        <p>Shandong Province (China), 2024</p>
+                    </div>
+                </div>
+                <div class="honor-item">
+                    <div class="honor-icon"><i class="bi bi-star"></i></div>
+                    <div class="honor-content">
+                        <h5>Postgraduate Innovation Achievement Award</h5>
+                        <p>Shandong Province (China), 2024</p>
+                    </div>
+                </div>
+                <div class="honor-item">
+                    <div class="honor-icon"><i class="bi bi-star"></i></div>
+                    <div class="honor-content">
+                        <h5>Top Ten Academic Stars</h5>
+                        <p>Qingdao University, 2024</p>
+                    </div>
+                </div>
+                <div class="honor-item">
+                    <div class="honor-icon"><i class="bi bi-star"></i></div>
+                    <div class="honor-content">
+                        <h5>Best Paper Award Nomination</h5>
+                        <p>HPC China Annual Conference, 2023</p>
+                    </div>
+                </div>
+                <div class="honor-item">
+                    <div class="honor-icon"><i class="bi bi-star"></i></div>
+                    <div class="honor-content">
+                        <h5>Best Paper Award</h5>
+                        <p>HPC China Annual Conference, 2022</p>
+                    </div>
+                </div>
+                <div class="honor-item">
+                    <div class="honor-icon"><i class="bi bi-star"></i></div>
+                    <div class="honor-content">
+                        <h5>Best Paper Award</h5>
+                        <p>Turing Conference China, 2021</p>
+                    </div>
+                </div>
+                <div class="honor-item">
+                    <div class="honor-icon"><i class="bi bi-star"></i></div>
+                    <div class="honor-content">
+                        <h5>First Prize for Outstanding Postgraduate Achievement Award</h5>
+                        <p>Shandong Province (China), 2021</p>
+                    </div>
+                </div>
+                <div class="honor-item">
+                    <div class="honor-icon"><i class="bi bi-star"></i></div>
+                    <div class="honor-content">
+                        <h5>Outstanding Graduate</h5>
+                        <p>Shandong Province (China), 2019</p>
+                    </div>
+                </div>
+                <div class="honor-item">
+                    <div class="honor-icon"><i class="bi bi-star"></i></div>
+                    <div class="honor-content">
+                        <h5>Grand Slam of National Scholarship (China)</h5>
+                        <p>Bachelor's, Master's, and Doctoral Studies, 2017, 2021, 2023</p>
+                    </div>
+                </div>
+            </section>
+            <section id="publications" class="section-card">
+                <div class="section-header">
+                    <div class="section-icon"><i class="bi bi-journal-bookmark"></i></div>
+                    <h2 class="section-title">Publications</h2>
+                </div>
+                <div class="filter-section">
+                    <input type="text" id="searchPublications" placeholder="Search publications by title, author, or keyword...">
+                </div>
+                <div class="results-count" id="resultsCount"></div>
+                <div class="publications-container" id="publicationsList">
+                    <div class="loading-spinner">
+                        <i class="bi bi-hourglass-split"></i> Loading publications...
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="services" class="section-card">
+                <div class="section-header">
+                    <div class="section-icon"><i class="bi bi-gear"></i></div>
+                    <h2 class="section-title">Academic Services</h2>
+                </div>
+                <h5 class="service-subtitle">Conference Services</h5>
+                <div class="service-item">
+                    <span>Co-chairs of the 13th International Parallel Application Challenge, 2026</span>
+                </div>
+                <!-- <h5 class="service-subtitle">Editor in Chief for Journals</h5> -->
+                <!-- <h5 class="service-subtitle">Associate Editor for Journals</h5> -->
+                <!-- <h5 class="service-subtitle">Editorial Board Member for Journals</h5>
+                <div class="service-item">
+                    <span>Annals of Applied Sciences</span>
+                </div> -->
+                <h5 class="service-subtitle">Journal & Conference Reviewers</h5>
+                <div class="service-item">
+                    <span>Engineering Applications of Artificial Intelligence, Number of Reviews: 72</span>
+                </div>
+                <div class="service-item">
+                    <span>ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2026), Number of Reviews: 3</span>
+                </div>
+                <div class="service-item">
+                    <span>Advanced Engineering Informatics, Number of Reviews: 23</span>
+                </div>
+                <div class="service-item">
+                    <span>Neurocomputing, Number of Reviews: 22</span>
+                </div>
+                <div class="service-item">
+                    <span>Franklin Open, Number of Reviews: 17</span>
+                </div>
+                <div class="service-item">
+                    <span>International Conference on Wireless Artificial Intelligent Computing Systems and Applications (WASA 2025), Number of Reviews: 6</span>
+                </div>
+                <div class="service-item">
+                    <span>The Innovation, Number of Reviews: 12</span>
+                </div>
+                <div class="service-item">
+                    <span>IEEE Transactions on Neural Networks and Learning Systems, Number of Reviews: 13</span>
+                </div>
+                <div class="service-item">
+                    <span>Expert Systems With Applications, Number of Reviews: 8</span>
+                </div>
+                <div class="service-item">
+                    <span>International Journal of Cognitive Computing in Engineering, Number of Reviews: 12</span>
+                </div>
+                <div class="service-item">
+                    <span>International Journal of Digital Earth, Number of Reviews: 21</span>
+                </div>
+                <div class="service-item">
+                    <span>International Journal of Information Technology & Decision Making, Number of Reviews: 23</span>
+                </div>
+                <div class="service-item">
+                    <span>Journal of Engineering Research and Sciences (JENRS), Number of Reviews: 11</span>
+                </div>
+                <div class="service-item">
+                    <span>Computers and Electrical Engineering, Number of Reviews: 16</span>
+                </div>
+                <div class="service-item">
+                    <span>Knowledge-Based Systems, Number of Reviews: 28</span>
+                </div>
+                <div class="service-item">
+                    <span>Neural Networks, Number of Reviews: 14</span>
+                </div>
+                <div class="service-item">
+                    <span>Journal of Chinese Architecture and Urbanism, Number of Reviews: 11</span>
+                </div>
+                <div class="service-item">
+                    <span>Journal of Traffic and Transportation Engineering (English Edition), Number of Reviews: 17</span>
+                </div>
+                 <div class="service-item">
+                    <span>The Open Transportation Journal, Number of Reviews: 40</span>
+                </div>
+                <div class="service-item">
+                    <span>IEEE Transactions on Intelligent Transportation Systems, Number of Reviews: 23</span>
+                </div>                              
+                
+            </section>
+
+      
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Zhiqiang Lv. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        let allPublications = [];
+
+        function createPublicationCard(pub, num) {
+            const authorsDisplay = pub.authors.split(';').map(a => a.trim()).filter(a => a);
+            const formattedAuthors = authorsDisplay.map(a => {
+                if (a.includes('Zhiqiang Lv')) {
+                    return `<strong style="color: #2c5282;">${a}</strong>`;
+                }
+                return a;
+            }).join('; ');
+
+            let metaParts = [];
+            if (num) metaParts.push(`<span class="badge bg-secondary">${num}</span>`);
+            if (pub.year) metaParts.push(`<span class="badge">${pub.year}</span>`);
+            if (pub.volume) metaParts.push(`Vol. ${pub.volume}`);
+            if (pub.number) metaParts.push(`No. ${pub.number}`);
+            if (pub.pages) metaParts.push(`pp. ${pub.pages}`);
+
+            return `
+                <div class="pub-item">
+                    <div class="pub-authors">${formattedAuthors}</div>
+                    <div class="pub-title">${pub.title}</div>
+                    <div class="pub-meta">
+                        ${metaParts.join('')}
+                        ${pub.publication ? `<span class="pub-venue">${pub.publication}</span>` : ''}
+                        ${pub.publisher ? `<span>${pub.publisher}</span>` : ''}
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderPublications(publications) {
+            const container = document.getElementById('publicationsList');
+            const resultsCount = document.getElementById('resultsCount');
+
+            if (publications.length === 0) {
+                container.innerHTML = '<div class="error-message">No publications found matching your search.</div>';
+                resultsCount.textContent = '0 results';
+                return;
+            }
+
+            resultsCount.textContent = `${publications.length} publication${publications.length !== 1 ? 's' : ''} found`;
+            container.innerHTML = publications.map((pub, i) => createPublicationCard(pub, i + 1)).join('');
+        }
+
+        function filterPublications(searchTerm) {
+            const term = searchTerm.toLowerCase();
+            const filtered = allPublications.filter(pub => 
+                pub.title.toLowerCase().includes(term) ||
+                pub.authors.toLowerCase().includes(term) ||
+                pub.publication.toLowerCase().includes(term) ||
+                pub.year.includes(term)
+            );
+            renderPublications(filtered);
+        }
+
+        async function loadPublications() {
+            const container = document.getElementById('publicationsList');
+            
+            try {
+                const response = await fetch('publications.json');
+                if (!response.ok) throw new Error('Failed to load JSON file');
+                allPublications = await response.json();
+                allPublications.sort((a, b) => (b.year || 0) - (a.year || 0));
+                renderPublications(allPublications);
+            } catch (error) {
+                container.innerHTML = `
+                    <div class="error-message">
+                        <i class="bi bi-exclamation-triangle"></i>
+                        Unable to load publications. Please ensure "publications.json" is in the same directory.
+                    </div>
+                `;
+                console.error('Error loading publications:', error);
+            }
+        }
+
+        document.getElementById('searchPublications').addEventListener('input', function(e) {
+            filterPublications(e.target.value);
+        });
+
+        document.addEventListener('DOMContentLoaded', loadPublications);
+    </script>
+</body>
+</html>
